@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashing Button</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        .flashing-button {
+            padding: 20px 40px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #000;
+            background-color: #FFFF00;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            animation: flash 0.5s infinite;
+        }
+
+        @keyframes flash {
+            0% { background-color: #FFFF00; }
+            50% { background-color: #FFFFFF; }
+            100% { background-color: #FFFF00; }
+        }
+    </style>
+</head>
+<body>
+
+    <a href="https://paypal.me/samchare" class="flashing-button">
+        SEND SOGGS 9.99 PER MONTH
+    </a>
+
+</body>
+</html>
